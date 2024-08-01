@@ -2,6 +2,7 @@ package com.example.testvsego;
 
 public class LDF {
     public static void main(String[] args) {
+        System.out.println();
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
